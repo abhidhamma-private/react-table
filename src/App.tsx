@@ -17,9 +17,9 @@ function App() {
   return (
     <>
       <div>
-        <button onClick={() => setCurrentTab('ColumnSizing')}>ColumnSizing</button>
-        <button onClick={() => setCurrentTab('ColumnOrdering')}>ColumnOrdering</button>
-        <button onClick={() => setCurrentTab('Pagination')}>Pagination</button>
+        <button onClick={() => setCurrentTab('ColumnSizing')}>열너비 드래그로 바꾸기</button>
+        <button onClick={() => setCurrentTab('ColumnOrdering')}>컬럼 필터링</button>
+        <button onClick={() => setCurrentTab('Pagination')}>페이징</button>
       </div>
 
       <div>{switchTab(currentTab)}</div>
